@@ -1,0 +1,45 @@
+body
+{ background:url("8. Reservoir Dogs - CREDIT Lionsgate.jpg");
+background-attachment: fixed;
+background-size: cover;}
+
+form 
+{ box-shadow: 0.2em 0.2em 0.4em #000;
+	width: 60%; }
+
+form fieldset:
+	{ background: #F2CB2D;
+	transition: all linear 0.5s; }
+
+form fieldset:hover
+	{ background: lightgreen; }
+
+form input[type="email"]{
+	background: transparent;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	outline: none;
+	text-align: center;
+}
+
+form input[type="submit"]{
+	display: block;
+	margin-top: 2em;
+	width: 200px;
+}
+
+legend {
+	color: white;
+	font-family: 'Lexend Deca', sans-serif;
+	text-align: center;
+}
+ 
+.p
+{
+	column-count: 3;
+	margin: 2em;
+	width: 60%;
+	color: white;
+	background:rgba(255,255,255,0.5);
+}
